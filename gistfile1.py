@@ -90,13 +90,6 @@ if __name__ == '__main__':
     for i in range(len(pro)):
         propo = propo + proposition[i]
 
-    '''for i in propo:
-        for e in propo:
-            if i == e:
-                var.append(e)
-                break'''
-
-
     def variables():
         global var, propo
         for b in range(len(propo)):
