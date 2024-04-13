@@ -70,8 +70,10 @@ def canonique(fonc):
 
 
 if __name__ == '__main__':
-    print("Nom: ANDRIAHASIMANANA \n Prénoms: Onjanirina Heriniaina \n N° inscription: UA03279FS2024")
-    print('la forme du fonction doit-être comme (x*y)+(-x*z)+-(y*z)')
+    print("Nom: ANDRIAHASIMANANA")
+    print("Prénoms: Onjanirina Heriniaina")
+    print("N° inscription: UA03279FS2024")
+    print('la forme de la fonction doit-être comme (x*y)+(-x*z)+-(y*z)')
     print("connecteurs: * = et, + = ou, - = non")
     prop = input("entrer une fonction logique : ")
     print(canonique(prop))
